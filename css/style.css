@@ -1,0 +1,309 @@
+html, body{
+    margin:  0;
+    padding: 0;
+
+}
+header{
+    width: 100%;
+    background-color: #fbfbfb;
+    height: 610px;
+}
+.menu{
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+} 
+a{
+    text-decoration: none;
+    color: black;
+
+}
+li{
+    list-style-type: none;
+
+}
+.nav{
+    width: 80%;
+    display: flex;
+    margin-left: 12%;
+}
+.rightcontent{
+    display: flex; 
+    margin-left: 40%;
+    width: 40%;
+}
+.nav li{
+    font-size: .9.5em;
+}
+.nav a{
+    margin-left: 2%;
+}
+.nav a:hover{
+    color: #d73572;
+    border-bottom: 1px solid #d73572;
+}
+.rightcontent{
+    margin-top:  -2.5%;
+    margin-left: 57%;
+}
+.rightcontent button{
+    margin-left:  5%;
+    width: 40%;
+    height: 45px;
+    border: 1px solid #d73572;
+    color: #d73572;
+    background-color:  inherit;
+}
+ .foto {
+     width: 100%;
+     margin-top: -4%;
+     margin-left: 35%;
+ }
+.rightcontent h3{
+font-size: 1.7em70;
+margin-top: 2%;
+} 
+.aboutme {
+width: 75%;
+margin: auto;
+display: flex;
+
+
+    }
+    .aboutme .name{
+        width: 40%;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+    .aboutme .name h1{
+        font-size: 3.5em;
+        margin-bottom: -5%;
+        display: flex;
+        width: 100%;
+    }
+.aboutme .name h3{
+    color: gray;
+    font-size: 2em;
+
+}
+.aboutme .name button{
+    border: none;
+    background-color: #db4933;
+    color: white;
+    width: 215px;
+    height: 48px;
+
+}
+/* today  */
+.section{
+    width: 100%;
+    padding-top: 4%;
+    margin-bottom: 3%;
+}
+.section h3{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 10%;
+}
+.cards{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cards .card{
+    text-align: center;
+}
+.section button{
+    margin-top: 5%;
+    width: 14%;
+    margin-left: 43%;
+    border: none;
+    background-color: #db4933;
+    height: 45px;
+    font-size: 1.1em;
+    color: white;
+    line-height: 45px;
+    cursor: pointer;
+}
+.portfolio{
+    background-color:  #FBFBFB ;
+}
+.profile img{
+    width: 400px;
+    margin-left: -5%;
+    margin-top: -5%;
+    
+}
+.cards .card profile{
+    justify-content: space-between; 
+}
+     .main{
+         width: 70%;
+         margin: auto;
+         
+     }
+     .threecards{
+         position: absolute;
+         width: 100%;
+         height: 90%;
+         left: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: indianred;
+     }
+ .threecards .card {
+    width: 300px;
+height: 300px;
+position: relative;
+perspective: 1000px;
+
+
+}
+.card:not(:first-child){
+    margin-left: 3%;
+
+
+}
+.front, .back {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top:  0;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 15px;
+}
+
+
+.front {
+    background-color: green;
+
+}
+.front p{
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 40%;
+    line-height: 26px;
+    color: white;
+
+}
+.back{
+    transform: rotateY(180deg);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: center;
+    
+    line-height: 26px;
+    color: white;
+background-color: violet;
+
+}
+.card:hover .front {
+    transform: rotateY(180deg);
+
+}
+.card:hover .back{
+    transform: rotateY(360deg);
+
+}
+.footer{
+    width: 100%;
+    padding: 0;
+margin: 0;
+
+}
+.begin{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 46px;
+
+
+}
+.icons1{
+    margin-top: 50px;
+
+}
+.icons {
+    
+    height: 30px;
+    text-align: left;
+
+}
+.icons .text{
+    margin-top: -2;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 1.4em;
+    
+
+}
+  .icons .foto {
+    margin-top: 5%;
+    width: 20px;
+
+}
+.contacts{
+    margin-top: 3%;
+
+
+}
+.social{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts button{
+    margin-left: 5%;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #db4933;
+    background-color: inherit;
+    color: lightcoral;
+}
+
+.ak {
+    background-color: #db4933;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.baner {
+    width: 50%;
+    margin: auto;
+    padding-top: 2%;
+    font-size: larger;
+
+}
+.baner h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.front img{
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
